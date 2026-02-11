@@ -1,0 +1,87 @@
+/* Page background & main text */   
+body {
+  background: linear-gradient(to right, rgb(30, 11, 40), rgb(95, 40, 197));
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+/* Header layout */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.header-left h1 {
+  margin: 0;
+  color: beige;
+}
+
+.header-left h2 {
+  margin: 5px 0 0 0;
+  color: beige;
+  font-weight: normal;
+}
+
+.header-right {
+  text-align: right;
+}
+.header-right nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;  
+  justify-content: flex-end;
+}
+
+.header-right nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-right .hero-img {
+  display: block;
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.info-text {
+  max-width: 60%;
+}
+
+.kurtImage {
+  width: 300px;
+  margin-left: 20px;
+  display: block;
+}
+
+/* Section headings */
+h1, h2 {
+  color: beige;
+}
+
+.largeText {
+  font-size: 24px;
+}
+
+/* Biography section link color */
+.bio-link {
+  color: rgb(200, 200, 200);       
+  text-decoration: underline; 
+}
+
+.bio-link:visited {
+  color: rgb(200, 200, 200);
+}
