@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kurt Cobain Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-left">
+      <h1>🎸𝔎𝔲𝔯𝔱 ℭ𝔬𝔟𝔞𝔦𝔫 🎸</h1>
+      <h2>𝓞𝓯𝓯𝓲𝓬𝓲𝓪𝓵 𝓐𝓻𝓽𝓲𝓼𝓽 𝓟𝓸𝓻𝓽𝓯𝓸𝓲𝓵𝓲</h2>
+    </div>
+
+    <div class="header-right">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="merchandise.html">Merchandise</a></li>
+          <li><a href="basket.html">Basket</a></li>
+        </ul>
+      </nav>
+      <img src="images/kurt.png" alt="Kurt Cobain performing" class="hero-img">
+    </div>
+  </header>
+
+  <main>
+    <section id="info" class="info-section">
+      <div class="info-text">
+        <p class="largeText">Full name: Kurt Donald Cobain</p>
+        <p>Date of Birth: 20th February 1967</p>
+        <p>Role: Lead singer & Guitarist of Nirvana</p>
+      </div>
+    </section>
+
+    <section id="bio">
+      <h3>Journey of a musician</h3>
+      <p>
+        From having high-school friends to forming one of the most iconic rock bands in modern history.
+        <a href="biography.html" class="bio-link">Find out how</a>
+      </p>
+    </section>
+
+    <section id="music">
+      <h3>Released Albums</h3>
+      <ul>
+        <li>Bleach (1989)</li>
+        <li>Nevermind (1991)</li>
+        <li>In Utero (1993)</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
